@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+
+.Container {
+    padding-block: 20px;
+}
+
+.myName {
+    background-color: #18487B;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+    font-family: 'Arial', Courier, monospace;
+}
+
+.jobName{
+    width: 70%;
+    margin-inline: auto;
+    padding-block: 5px;
+    text-align: center;
+}
+
+.jobName h1{
+    color: white;
+    font-size: 50px;
+}
+
+.jobName h3{
+    color: #B9DCFF;
+    font-size: 20px;
+}
+
+.Links{
+    width: 70%;
+    height: 50px;
+    margin-inline: auto;
+    padding-block: 20px;
+    text-align: center;
+}
+
+.button{
+    background-color: #2A5685;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #55789E;
+}
+
+.myFooter{
+    background-color: #071A35;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+    font-family: 'Arial', Courier, monospace;
+    margin-block: 20px;
+}
+
+.footerText{
+    color: white;
+    width: 70%;
+    margin-inline: auto;
+    padding-block: 30px;
+    text-align: center;
+}
+
+.allRights{
+    color: #7BC8FF;
+    
+}
