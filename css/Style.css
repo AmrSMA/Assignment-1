@@ -1,4 +1,5 @@
 body{
+    background-color: #F4F7FB;
     margin: 0px;
 }
 
@@ -6,6 +7,7 @@ body{
     padding-block: 20px;
 }
 
+/* First Section */
 .myName {
     background-color: #18487B;
     width: 70%;
@@ -47,13 +49,205 @@ body{
     border: 1px solid #55789E;
 }
 
+
+/* About Me Section */
+.aboutMe{
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+    font-family: 'Arial', Courier, monospace;
+    margin-block: 30px;
+}
+
+h2{
+    color: #0B3D73;
+}
+
+.title{
+    padding : 10px 30px;
+}
+
+hr{
+    width: 100%;
+    background-color: #DCEEFF;
+}
+
+.Content{
+    padding : 10px 30px;
+}
+
+.image{
+    display: inline-block;
+}
+
+img {
+    width : 150px;
+    height : 150px;
+    border-radius: 50%;
+    padding : 20px 50px;
+}
+
+.description{
+    display: inline-block;
+    vertical-align: top;
+}
+
+span{
+    color: #0B65AD;
+    font-weight: bold;
+}
+
+.btnVisit{
+    background-color: #0B65AD;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border: 1px solid #55789E;
+}
+
+
+/* My Skills Section */
+.mySkills{
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+    font-family: 'Arial', Courier, monospace;
+    margin-block: 30px;
+}
+
+.ContentTechnologies{
+    padding-block : 15px;
+}
+
+.technologies{
+    padding : 0px 30px;
+}
+
+.technology{
+    display: inline-block;
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #F9FCFF;
+    color: black;
+    margin-inline: 15px;
+    border: 1px solid #DCEEFF;
+}
+
+.h2{
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #0B65AD;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.h3{
+    padding-inline: 30px;
+    font-size: 15px;
+}
+
+
+/* Experience Section */
+.Experience{
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+    font-family: 'Arial', Courier, monospace;
+    margin-block: 30px;
+}
+
+.Senior{
+    width: 90%;
+    border-radius: 15px;
+    border: 1px solid #DCEEFF;
+    border-left : 5px solid #0B65AD;
+    margin: 20px auto;
+    padding : 30px 30px;
+    background-color: #F8FAFC;
+}
+
+.Simage{
+    display: inline-block;
+}
+
+.Simage img{
+    width : 100px;
+    height : 100px;
+    border-radius: 20px;
+    padding : 20px 50px;
+}
+
+.SeniorFront{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.TechCorp{
+    font-size: 15px;
+    color: #0B65AD;
+    font-weight: bold;
+}
+
+.Developed{
+    padding-inline: 30px;
+}
+
+.desc{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Contact Me Section */
+.contactMe{
+    background-color: #18487B;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+    font-family: 'Arial', Courier, monospace;
+    margin-block: 30px;
+}
+
+.title p{
+    padding : 10px 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Feelfree{
+    padding : 0px 30px;
+    color: #FFFFFF;
+}
+
+.btns{
+    padding : 10px 30px;
+    display: inline-block;
+}
+
+.btnData{
+    background-color: #305B88;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border: 1px solid #55789E;
+    font-size: 15px;
+    margin: 10px 5px;
+}
+
+
+/* Footer Section */
 .myFooter{
     background-color: #071A35;
     width: 70%;
     margin-inline: auto;
     border-radius: 20px;
     font-family: 'Arial', Courier, monospace;
-    margin-block: 20px;
+    margin-block: 30px;
 }
 
 .footerText{
@@ -66,5 +260,5 @@ body{
 
 .allRights{
     color: #7BC8FF;
-    
+
 }
